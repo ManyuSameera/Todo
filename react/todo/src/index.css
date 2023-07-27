@@ -1,0 +1,18 @@
+/* <style> */
+*{
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+/* </style> */
+.pointer{
+    cursor:pointer;
+}

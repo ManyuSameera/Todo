@@ -1,0 +1,77 @@
+.item-card{
+    background-color: white;
+    border-radius:10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    /* font-family: 'Bebas Neue', cursive; */
+    
+}
+.item-card.high{
+    border-left: 6px solid#E01717;
+
+}
+
+.item-card.medium{
+    border-left: 6px solid#FFA800;
+
+}
+
+.item-card.low{
+    border-left: 6px solid#44B400;
+
+}
+
+.item-card.high .badge{
+    /* border-left: 6px solid#FFA800; */
+    color: #E01717;
+    background-color: #E0171733;
+    
+}
+
+.item-card.medium .badge{
+    /* border-left: 6px solid#FFA800; */
+    color:#FFA800;
+    background-color:#FFA80033 ;
+}
+
+.item-card.low .badge{
+    color:#44B400;
+    /* border-left:6px solid#44B400; */
+    background-color: #44B40033;
+}
+
+.checkbox{
+    display: inline-block;
+    border:1px solid;
+    border-radius: 5px;
+    height:20px;
+    width:20px;
+    margin-right: 20px;
+    /* cursor:pointer; */
+}
+
+.card-title{
+    margin-left: 20px;
+}
+
+.card-title.strike{
+    text-decoration: line-through;
+}
+
+.badge{
+    /* display: flex; */
+    border: 0px solid;
+    border-radius: 18px;
+    width:70px;
+    text-align: center;
+    padding :10px;
+    margin-left:auto; 
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.material-symbols-outlined{
+    padding: 10px;
+}
